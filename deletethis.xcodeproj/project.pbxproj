@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0664B7341D9DA2F600BFEDA2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0664B7331D9DA2F600BFEDA2 /* TableViewController.m */; };
 		06BE88A61D9AC53A00119703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BE88A51D9AC53A00119703 /* main.m */; };
 		06BE88A91D9AC53A00119703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BE88A81D9AC53A00119703 /* AppDelegate.m */; };
 		06BE88AC1D9AC53A00119703 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BE88AB1D9AC53A00119703 /* ViewController.m */; };
 		06BE88AF1D9AC53A00119703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BE88AD1D9AC53A00119703 /* Main.storyboard */; };
 		06BE88B11D9AC53A00119703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BE88B01D9AC53A00119703 /* Assets.xcassets */; };
 		06BE88B41D9AC53A00119703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BE88B21D9AC53A00119703 /* LaunchScreen.storyboard */; };
+		06BE88BD1D9AC56600119703 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BE88BC1D9AC56600119703 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0664B7321D9DA2F600BFEDA2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0664B7331D9DA2F600BFEDA2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		06BE88A11D9AC53A00119703 /* deletethis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deletethis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BE88A51D9AC53A00119703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06BE88A71D9AC53A00119703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,7 @@
 		06BE88B01D9AC53A00119703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BE88B31D9AC53A00119703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BE88B51D9AC53A00119703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BE88BC1D9AC56600119703 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BE88BD1D9AC56600119703 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,7 @@
 			children = (
 				06BE88A31D9AC53A00119703 /* deletethis */,
 				06BE88A21D9AC53A00119703 /* Products */,
+				06BE88BB1D9AC56500119703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,8 @@
 				06BE88AA1D9AC53A00119703 /* ViewController.h */,
 				06BE88AB1D9AC53A00119703 /* ViewController.m */,
 				06BE88AD1D9AC53A00119703 /* Main.storyboard */,
+				0664B7321D9DA2F600BFEDA2 /* TableViewController.h */,
+				0664B7331D9DA2F600BFEDA2 /* TableViewController.m */,
 				06BE88B01D9AC53A00119703 /* Assets.xcassets */,
 				06BE88B21D9AC53A00119703 /* LaunchScreen.storyboard */,
 				06BE88B51D9AC53A00119703 /* Info.plist */,
@@ -77,6 +86,14 @@
 				06BE88A51D9AC53A00119703 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06BE88BB1D9AC56500119703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06BE88BC1D9AC56600119703 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +127,7 @@
 				TargetAttributes = {
 					06BE88A01D9AC53900119703 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9JL529NFTA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +171,7 @@
 				06BE88AC1D9AC53A00119703 /* ViewController.m in Sources */,
 				06BE88A91D9AC53A00119703 /* AppDelegate.m in Sources */,
 				06BE88A61D9AC53A00119703 /* main.m in Sources */,
+				0664B7341D9DA2F600BFEDA2 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JL529NFTA;
 				INFOPLIST_FILE = deletethis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinod.deletethis;
@@ -281,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JL529NFTA;
 				INFOPLIST_FILE = deletethis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinod.deletethis;
@@ -307,6 +328,7 @@
 				06BE88BA1D9AC53A00119703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
